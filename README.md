@@ -21,7 +21,7 @@ This is a simple web server implemented in C using the WinSock2 API. It listens 
 If using Visual Studio Developer Command Prompt:
 
 ```bash
-cl /W4 /DWIN32 /D_WINDOWS /D_UNICODE /DUNICODE webserver.c ws2_32.lib
+cl /W4 /DWIN32 /D_WINDOWS /D_UNICODE /DUNICODE main.c ws2_32.lib
 ```
 
 ## How to Use
